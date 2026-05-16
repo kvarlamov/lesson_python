@@ -144,7 +144,7 @@ class Engine:
         self._efficiency = efficiency
         self._manufacturer = manufacturer
         self._serial_number = serial_number
-
+    
 class PetrolEngine(Engine):
     def __init__(self, power, weight, efficiency, manufacturer, serial_number,
                  displacement, cylinder_count, injection_type):
